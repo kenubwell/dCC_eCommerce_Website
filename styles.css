@@ -20,7 +20,12 @@ main section {
 header{
     padding: 1rem;
     text-align: center;
+    display: inline;
 
+}
+
+.logo_image{
+    height: 30px;
 }
 
 nav h3{
@@ -32,15 +37,20 @@ nav h3{
 nav ul{
     list-style-type: none;
     position: absolute;
-    top: 0.7rem;
-    left: 10rem;
+    top: 1rem;
     font-size:small;
     text-decoration: none;
 }
 
 nav li{
-    display: inline; /*makes list items side-by-side*/
+    display: inline;
     margin-right: 0.5rem;
+}
+
+nav li a{
+    display: inline; /*makes list items side-by-side*/
+    text-decoration: none;
+    color: black;
 }
 
 hr {
@@ -60,11 +70,18 @@ hr {
 .home {
     background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
+    background-position: center;
+    padding-bottom: 500px;
 
 }
 
 .home h1{
-    color: white
+    color: white;
+    
+}
+
+#hometxt_right{
+    text-align: right;
 }
 
 .about img {
@@ -100,6 +117,18 @@ hr {
 
 .products{
     margin-top: 10rem;
+}
+
+.form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.email input{
+    padding: 1px 250px;
+}
+.message input{
+    padding: 80px 250px;
 }
 
 footer{
