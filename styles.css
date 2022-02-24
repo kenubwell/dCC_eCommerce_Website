@@ -82,26 +82,30 @@ nav li a{
 .home {
     background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
-    padding-top: 75px;
-    padding-bottom: 85px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     margin-left: 2em;
     margin-right: 2em;
 
 }
 
-.home h2{
+.homestr_container{
     color: white;
     margin-left: 2em;
+    font-size: xx-large;
+    font-family: 'Segoe UI';
     
 }
 
-.homeh2r_container{
-    margin-top: 10em;
+.homestr2_container{
+    color: white;
+    margin-top: 8em;
     margin-right: 2em;
+    font-size: xx-large;
+    text-align: right;
 }
 
 #hometxt_right{
-    text-align: right;
     margin-right: 3em;
 }
 
