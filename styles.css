@@ -10,6 +10,7 @@ html{
     box-sizing: border-box;
 }
 
+
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
@@ -148,6 +149,11 @@ nav li a{
     margin-top: 12rem;
 }
 
+.productdetails{
+    margin-top: 4rem;
+}
+
+
 .product_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -178,6 +184,25 @@ nav li a{
 .product_container span{
     padding-left: 60px;
 }
+
+.productdetails_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 175px;
+    padding-top: 40px;
+    margin-left:300px;
+    padding-bottom: 100px;
+}
+
+.productdetails_container p{
+    width: 500px;
+    font-size: 20px;
+}
+
+.productdetails_container span{
+    padding-left: 200px;
+}
+
 
 .contacts{
     margin-top: 10rem;
